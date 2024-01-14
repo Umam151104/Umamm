@@ -1,0 +1,457 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #63f74f;
+    color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+}
+img {
+width: 550px;
+height: auto;
+object-fit: cover;
+}
+#daftar-artikel {
+width: 100vw; /* Lebar 100% dari viewport width */
+height: auto; /* Tinggi 100% dari viewport height */
+display: flex; /* Gunakan flexbox untuk menengahkan konten secara vertikal dan horizontal */
+align-items: center; /* Tengahkan secara vertikal */
+justify-content: center; /* Tengahkan secara horizontal */
+flex-direction: column; /* Atur tata letak kolom */
+}
+
+.artikel {
+width: 80%; /* Atur lebar artikel sesuai kebutuhan Anda */
+padding: 20px; /* Berikan padding agar kontennya tidak terlalu rapat dengan tepi box */
+border: 1px solid #ccc; /* Tambahkan border untuk memisahkan box dengan halaman */
+background-color: black;
+}
+
+h1 {
+text-align: center; /* Pusatkan judul */
+color: white;
+}
+
+p {
+margin-top: 0; /* Hilangkan margin atas pada paragraf untuk mengurangi ruang kosong */
+text-align: justify; /* Ratakan teks paragraf */
+color: white;
+}
+
+img {
+max-width: 100%; /* Agar gambar tidak melebihi lebar artikel */
+height: auto; /* Agar gambar tetap proporsional */
+display: block; /* Hilangkan spasi di sekitar gambar */
+margin: 0 auto 10px; /* Atur jarak antara gambar dan teks di bawahnya */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #63f74f;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 700;
+color: black;
+transition: all 0.10s;
+}
+
+.artikel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.artikel h1,
+.artikel h2,
+.artikel h4 {
+    color: white;
+}
+
+.artikel p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.artikel h2 {
+    margin-top: 30px;
+}
+
+.artikel h2,
+.artikel h4 {
+    margin-bottom: 10px;
+}
+
+.artikel h4 b {
+    color: white;
+}
+.about_section {
+    color: #ffffff;
+  }
+  
+  .about_section .heading_container h2 {
+    color: #ffffff;
+  }
+  
+  .about_section .about_container {
+    padding: 20px;
+    background-image: url(images/about-bg.jpg);
+    background-size: cover;
+    margin-top: auto;
+  }
+  
+  .about_section .about_container .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .about_section .about_container .detail-box p {
+    margin-top: 25px;
+  }
+  
+  .about_section .about_container .detail-box hr {
+    margin: 0 auto;
+    border: none;
+    width: 1.5px;
+    height: 125px;
+    background-color: #ffffff;
+  }
+  
+  .about_section .about_container .detail-box a {
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    color: #ffffff;
+    margin: 35px auto 0 auto;
+    -webkit-box-shadow: 0 0 35px 0 rgba(99, 247, 79, 0.7);
+            box-shadow: 0 0 35px 0 rgba(99, 247, 79, 0.7);
+  }
+  
+  .about_section .about_container .detail-box a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .class_section {
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .class_section .row > div {
+    position: unset;
+  }
+  
+  .class_section .class_box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 45px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .class_section .class_box-container .box {
+    position: relative;
+  }
+  
+  .class_section .class_box-container .box .img-box {
+    position: relative;
+    padding-left: 75px;
+    background-color: #000000;
+  }
+  
+  .class_section .class_box-container .box .img-box img {
+    width: 100%;
+  }
+  
+  .class_section .class_box-container .box .img-box .detail-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 55px 0;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .class_section .class_box-container .box .img-box .detail-box button {
+    background-color: #292929;
+    border: none;
+    width: 55px;
+    height: 55px;
+    margin: 0 10px;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .class_section .class_box-container .box .img-box .detail-box button img {
+    width: 20px;
+    margin-left: 5px;
+  }
+  
+  .class_section .class_box-container .box .img-box .detail-box h2 {
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 55px;
+    margin-left: 15px;
+  }
+  
+  .class_section .class_box-container .box .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .class_section .class_box-container .box .btn-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #ffffff;
+  }
+  
+  .class_section .class_box-container .box .btn-box a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .class_section .owl-carousel {
+    position: unset;
+  }
+  
+  .class_section .owl-carousel .owl-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10px;
+    margin-top: 55px;
+    position: absolute;
+    top: 50%;
+    right: 45px;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-prev,
+  .class_section .owl-carousel .owl-nav .owl-next {
+    background-color: #000000;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12px;
+    border-radius: 100%;
+    outline: none;
+    margin: 2px 0;
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-prev:hover,
+  .class_section .owl-carousel .owl-nav .owl-next:hover {
+    background-color: #ffffff;
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-prev {
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/prev.png);
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-prev:hover {
+    background-image: url(../images/prev-grey.png);
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-next {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/next.png);
+  }
+  
+  .class_section .owl-carousel .owl-nav .owl-next:hover {
+    background-image: url(../images/next-grey.png);
+  }
+  
+  .blog_section {
+    color: #ffffff;
+    overflow-x: hidden;
+    padding: 50px 0;
+  }
+  
+  .blog_section .box {
+    margin: 25px 0;
+    background-color: black;
+    margin-left: 10px;
+  }
+  
+  .blog_section .box .img-box {
+    position: relative;
+  }
+  
+  .blog_section .box .img-box img {
+    width: 100%;
+  }
+  
+  .blog_section .box .detail-box {
+    position: relative;
+    padding-top: 75px;
+    padding-bottom: 35px;
+  }
+  .blog_section h2 {
+    color: #000; /* Warna hitam */
+    border-radius: 10px; /* Border radius 10px, sesuaikan sesuai kebutuhan */
+    padding: 10px; /* Padding untuk memberi ruang di sekitar judul */
+    background-color: #fff; /* Warna latar belakang, sesuaikan sesuai kebutuhan */
+  }
+  
+  .blog_section .box .detail-box h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .blog_section .box .detail-box a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #000000;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    color: #ffffff;
+  }
+  
+  .blog_section .box .detail-box a:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .blog_section .box.b1 .detail-box {
+    padding-right: 35px;
+  }
+  
+  .blog_section .box.b2 .detail-box {
+    padding-left: 35px;
+  }
+  /* Footer Style */
+.footer {
+	text-align: center;
+}
+.footer ul {
+	padding: 0px;
+	margin: 0px;
+}
+.footer ul li {
+	list-style: none;
+	display: inline-block;
+}
+.footer .logo img {
+	max-width: 85%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.footer .footer-menu {
+	margin-bottom: 40px;
+}
+.footer .footer-menu ul li {
+	margin: 0px 15px;
+}
+.footer .footer-menu a {
+	font-size: 13px;
+	color: #7a7a7a;
+	text-transform: uppercase;
+	transition: all 0.5s;
+}
+.footer .footer-menu a:hover {
+	color: white;
+	text-decoration: none;
+}
+.footer .social-icons {
+	margin-bottom: 60px;
+}
+.footer .social-icons ul li {
+	margin: 0px 10px;
+}
+.footer .social-icons a {
+	width: 32px;
+	height: 32px;
+	color: #fff;
+	background-color: black;
+	text-align: center;
+	display: inline-block;
+	line-height: 33px;
+	border-radius: 50%;
+	font-size: 13px;
+	transition: all 0.5s;
+}
+.footer .social-icons a:hover {
+	background-color: #3a8bcd;
+}
+
+/* Sub Footer Style */
+.sub-footer {
+	border-top: 1px solid #eee;
+	text-align: center;
+}
+.sub-footer p {
+	font-size: 12px;
+	color: #7a7a7a;
+	line-height: 60px;
+}
+.sub-footer a {
+	color: #3a8bcd;
+	text-decoration: none;
+}
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .about_section .col-lg-3 {
+        margin-bottom: 20px;
+    }
+
+    .blog_section .box {
+        margin-right: 0;
+    }
+}
